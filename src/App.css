@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap');
+
+html,body {
+  margin: 0;
+  padding: 0;
+  background-color: #F6EEE7;
+  font-family: 'Raleway';
+}
+
+.App {
+  height: 100vh;
+}

@@ -1,0 +1,23 @@
+.Navbar {
+  width: 100%;
+  background-color: #292828;
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: var(--navbar-height);
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.logo {
+  padding-left: 3.5rem;
+  border-right: 1px solid rgb(72, 72, 72);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
