@@ -1,6 +1,7 @@
 import React from "react";
 import './Home.css'
 import HomeImg from '../../photos/casual-dresscode.jpg'
+import { Link }from "react-router-dom"
 
 function Home() {
   return(
@@ -14,7 +15,7 @@ function Home() {
             A fake e-commerce store for satisfying your clothing needs
           </div>
           <div className="signboard-3">
-            SHOP NOW
+            <Link to="/shop">SHOP NOW</Link>
           </div>
         </div>
         <img src={HomeImg} alt="Home" className="HomeImg" />

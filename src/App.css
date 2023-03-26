@@ -7,6 +7,14 @@ html,body {
   font-family: 'Raleway';
 }
 
+a {
+  all: unset
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .App {
 
 }
