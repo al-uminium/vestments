@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import ShoppingPage from './components/Shopping_Page/ShoppingPage';
+import Item from './components/Item/Item';
 // import { HashRouter } from "react-router-dom"
 import { createHashRouter, RouterProvider, } from "react-router-dom";
 
@@ -14,6 +15,10 @@ const router = createHashRouter([
     children: [{
       path: "/shop",
       element: <ShoppingPage />,
+      children: [{
+        path: "/shop/items/:id",
+        element: <Item />,
+      }]
     }]
   },
 ])
