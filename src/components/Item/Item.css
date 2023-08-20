@@ -1,0 +1,74 @@
+.Item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 5rem;
+} 
+
+.item-size-container, .add-to-bag-container, .favourites-icon, .item-description {
+  align-self: center;
+}
+
+.item-img-container {
+  width: 30rem;
+  height: 35rem;
+  justify-self: center;
+  background-color: gray;
+}
+
+.item-details-container {
+  display: grid;
+  width: 30rem;
+}
+
+.item-title {
+  font-family: 'Inter';
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.item-description {
+  font-family: 'Inter';
+  font-size: 1rem;
+  font-weight: 200;
+  color: gray;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.add-to-bag-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favourites-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.favourites-icon:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.favourites-icon-clicked {
+  border: 1px solid #f04646;
+}
+
+.add-to-bag {
+  border: none;
+  width: 18rem;
+  height: 4rem;
+  color: black;
+  background-color: #81F8BF;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-to-bag:hover {
+  background-color: #38e994;
+}
