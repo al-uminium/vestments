@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Raleway&family=Roboto&family=Roboto+Condensed&display=swap');
 
 html,body {
   margin: 0;
   padding: 0;
-  background-color: #F6EEE7;
+  background-color: #fcf6f1;
   font-family: 'Raleway';
 }
 
