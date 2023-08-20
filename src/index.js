@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import ShoppingPage from './components/Shopping_Page/ShoppingPage';
-import Item from './components/Item/Item';
+import Item from './components/Item_Page/ItemPage';
 // import { HashRouter } from "react-router-dom"
 import { createHashRouter, RouterProvider, } from "react-router-dom";
 

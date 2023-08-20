@@ -1,0 +1,16 @@
+.item-container {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+}
+
+.favourite-icon-container {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  opacity: 0.8;
+}
+
+.placeholder {
+  background-color: grey;
+}
