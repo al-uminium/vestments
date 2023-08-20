@@ -1,6 +1,6 @@
 .Navbar {
   width: 100%;
-  background-color: #292828;
+  background-color: var(--dark-gray);
   color: #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   display: flex;
