@@ -1,0 +1,16 @@
+.favourites-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.favourites-icon:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.favourites-icon-clicked {
+  border: 1px solid #f04646;
+}

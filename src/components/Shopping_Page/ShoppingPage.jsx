@@ -1,8 +1,11 @@
 import React from 'react';
 import banner from '../../photos/new-in.png'
 import './ShoppingPage.css'
+import ItemCard from '../../ItemCard/ItemCard';
+import { Link } from 'react-router-dom';
 
 function ShoppingPage () {
+
   return (
     <div className="ShoppingPage">
       <div className="shop-banner">
@@ -12,31 +15,31 @@ function ShoppingPage () {
         </div>
       </div>
       <div className="new item-grid">
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
+        <Link to="/shop/items/1"><ItemCard /></Link>
+        <ItemCard />
+        <ItemCard />
       </div>
       <div className="item-break">
         BROWSE YOUR STYLE <br /> SUMMERWEAR
       </div>
       <div className="new item-grid">
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
       </div>
       <div className="item-break">
         BROWSE YOUR STYLE <br /> SUMMERWEAR
       </div>
       <div className="new item-grid">
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
-        <div className="item-placeholder"></div>
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
+        <ItemCard />
       </div>
     </div>
   );
