@@ -11,7 +11,9 @@ function Navbar(){
         <Link to="/">VESTMENTS</Link>
       </div>
       <div className="icon">
-        <img src={heart} alt="wishlist" className="wishlist icon" />
+        <Link to="/favourites">
+          <img src={heart} alt="wishlist" className="wishlist icon" />
+        </Link>
         <img src={cart} alt="shopping cart" className="cart icon" />
       </div>
     </div>

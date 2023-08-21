@@ -1,0 +1,11 @@
+.favourites-card-container {
+  display: grid;
+  width: 22rem;
+  grid-gap: 1rem;
+}
+
+.favourite-image-container {
+  width: 22rem;
+  height: 25rem;
+  background-color: white;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import banner from '../../photos/new-in.png'
 import './ShoppingPage.css'
-import ItemCard from '../../ItemCard/ItemCard';
+import ItemCard from '../ItemCard/ItemCard';
 import { Link } from 'react-router-dom';
 
 function ShoppingPage () {

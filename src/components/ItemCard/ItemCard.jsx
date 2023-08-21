@@ -1,6 +1,6 @@
 import React from 'react';
 import './ItemCard.css'
-import FavouriteIcon from '../components/Favourite_Icon/FavouriteIcon';
+import FavouriteIcon from '../Favourite_Icon/FavouriteIcon';
 
 const ItemCard = () => {
   return (

@@ -2,24 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import ShoppingPage from './components/Shopping_Page/ShoppingPage';
-import Item from './components/Item_Page/ItemPage';
+import Item from './components/Item_Page/ItemPage.jsx';
 // import { HashRouter } from "react-router-dom"
 import { createHashRouter, RouterProvider, } from "react-router-dom";
 
 import './variables.css'
+import FavouritesPage from './components/Favourites_Page/FavouritesPage';
 
 const router = createHashRouter([
   {
     path: "/",
     element: <App />,
-    children: [{
-      path: "/shop",
-      element: <ShoppingPage />,
-      children: [{
-        path: "/shop/items/:id",
-        element: <Item />,
-      }]
-    }]
+    children: [
+      {
+        path: "/shop",
+        element: <ShoppingPage />,
+        children: [{
+          path: "/shop/items/:id",
+          element: <Item />,
+        }]
+      },
+      {
+        path: "/favourites",
+        element: <FavouritesPage />
+      }
+    ]
   },
 ])
 
